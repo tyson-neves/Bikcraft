@@ -160,11 +160,9 @@
     font-size: 18px;
     line-height: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    
-
 
 }
-.dados_email {
+.orcamento_dados span:nth-of-type(2){
     margin-bottom: 40px;
 }
 
