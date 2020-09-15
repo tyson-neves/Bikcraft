@@ -58,6 +58,9 @@
 	border-color: white;
 
 }
+.header_menu ul li a.menu_ativo {
+    border-color: white;
+}
 
 	/*Introdução*/
 .introducao {
@@ -74,6 +77,12 @@
     padding-top: 10px;
    
 }
+/* Introdução interna */
+.introducao-interna {
+    margin-top: 0px;
+   
+}
+
 /* Qualidade */
 .qualidade:after {
 	display: none;
@@ -82,4 +91,15 @@
 	padding: auto 10px ;
 	margin-left: 0;
 }	
+/* Sobre */
+.missao_sobre p {
+	font-size: 16px;
+	line-height: 20px;
+  	padding-right: 0px;
+}
+.missao_sobre ul li {
+	font-size: 16px;
+	line-height: 25px;
+}
+
 }
