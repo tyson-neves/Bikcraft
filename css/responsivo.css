@@ -1,8 +1,29 @@
 /* Estilos para tablets */
 @media only screen and (min-width: 788px) and (max-width: 979px) {
+	
+	/*Qualidade Home*/	
+.qualidade:after {
+		
+	right: 66px;
+}
 
+.qualidade_lista li {
+	padding: 0 10px ;
+}	
+	/*Footer*/
+.footer_redes ul li a {
+	border: 3px solid #fec63e ;
+	display: block;
+	padding: 6px;
 
 }
+.footer_redes ul li a img {
+	width: 26px;
+	height: 26px; 
+}
+
+}
+
 
 /* Estilos para smartphone */
 @media only screen and (max-width: 787px) {
@@ -11,7 +32,7 @@
 .header {
 	position: relative;
 		
-	}
+}
 
 
 .header img {
@@ -41,8 +62,24 @@
 	/*Introdução*/
 .introducao {
 	margin-top: 0px;
-	padding-top: 25px;
-	background: url(../img/bg-mobile.jpg) no-repeat center;
+	padding-top: 40px;
+	background: url(../img/bg.jpg) no-repeat center;
 
 }
+.introducao h1 {
+	font-size: 32px;
+}
+	/*Call to action*/
+.call {
+    padding-top: 10px;
+   
+}
+/* Qualidade */
+.qualidade:after {
+	display: none;
+}
+.qualidade_lista  li {
+	padding: auto 10px ;
+	margin-left: 0;
+}	
 }
