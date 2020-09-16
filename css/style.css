@@ -86,10 +86,9 @@ img {
 }
 
 .header_menu ul li {
-
-display: inline-block;
-margin-left: 25px;
-margin-top: 20px;
+    display: inline-block;
+    margin-left: 25px;
+    margin-top: 20px;
 }
 .header_menu ul li a {
     color: black;
@@ -128,8 +127,9 @@ margin-top: 20px;
 .quote-externo {
     max-width: 320px;
     margin: 0 auto;
-    color: white;
     margin-bottom: 40px;
+    color: white;
+   
 }
 .quote-externo p {
     font-style: italic;
@@ -163,7 +163,6 @@ margin-top: 20px;
 }
 .introducao-interna h1 {
     font-size: 36px;
-    color: white;
     font-weight: bold;
     text-transform: uppercase;
 }    
@@ -371,3 +370,19 @@ margin-top: 20px;
     background:#fec63e ;
     padding: 20px 0;
 }
+
+/* Javascript */
+.js [data-slide] {
+    position: relative;
+  }
+.js [data-slide] > * {
+    position: absolute;
+    top: 0px;
+    opacity: 0;
+  }
+.js [data-slide] > .active {
+    position: relative;
+    opacity: 1;
+    transition: opacity 500ms;
+    
+  }
